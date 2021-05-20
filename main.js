@@ -4,7 +4,7 @@ function convertFahrToCelsius(deg){
     const result = (deg - 32) * 5/9;
     var str = JSON.stringify(deg);
 
-    if(Number(deg == Number(deg) && typeof deg !== "boolean" && deg !== "" && typeof deg !== "object" && (!isNaN(deg))){
+    if(Number(deg == Number(deg)) && typeof deg !== "boolean" && deg !== "" && typeof deg !== "object" && (!isNaN(deg))){
         console.log (Number(result.toFixed(4)))
         return Number(result.toFixed(4))
     }else{
