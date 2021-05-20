@@ -11,6 +11,10 @@ function convertFahrToCelsius(deg){
         if (Array.isArray(deg)){
             console.log( `${str} is not a valid number but a/an array`)
             return( `${str} is not a valid number but a/an array`)
+        }
+        if(isNaN(deg) && typeof deg === "number"){
+            console.log( `NaN is not a valid number`)
+            return( `NaN is not a valid number`)
         }else{
             console.log( `${str} is not a valid number but a/an ${typeof deg}`)
             return( `${str} is not a valid number but a/an ${typeof deg}`)
