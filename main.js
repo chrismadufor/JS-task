@@ -5,8 +5,8 @@ function convertFahrToCelsius(deg){
     var str = JSON.stringify(deg);
 
     if(Number(result) && typeof deg !== "boolean" && typeof deg !== "object" && (!isNaN(deg))){
-        console.log (Number(result.toFixed(2)))
-        return Number(result.toFixed(2))
+        console.log (Number(result.toFixed(4)))
+        return Number(result.toFixed(4))
     }else{
         if (Array.isArray(deg)){
             console.log( `${str} is not a valid number but a/an array`)
