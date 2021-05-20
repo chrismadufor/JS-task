@@ -18,10 +18,6 @@ function convertFahrToCelsius(deg){
     }
 }
 
-convertFahrToCelsius({})
-convertFahrToCelsius([])
-
-
 // CHECK YU-GI-OH
 
 function checkyugioh(val) {
