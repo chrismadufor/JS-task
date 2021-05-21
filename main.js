@@ -24,7 +24,7 @@ function convertFahrToCelsius(deg){
 
 // CHECK YU-GI-OH
 
-function checkyugioh(val) {
+function checkYuGiOh(val) {
     const array = [];
     const newarray = []; 
     if (Number(val) && typeof val !== "boolean" && typeof val !== "object" && (!isNaN(val))){
