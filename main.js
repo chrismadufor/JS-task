@@ -56,6 +56,9 @@ function checkyugioh(val) {
                 newarray.push(array[i]);
             }
         }
+    }else if(isNaN(val) && typeof val === "number"){
+        console.log(`Invalid parameter: ` + val);
+        return(`Invalid parameter: ` + val);
     }else{
         console.log(`Invalid parameter: ` + `${JSON.stringify(val)}`);
         return(`Invalid parameter: ` + `${JSON.stringify(val)}`);
